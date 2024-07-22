@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  @apply text-blue-500 dark:text-blue-300;
+}
+
+a:hover {
+  @apply underline;
+}
+
+.group .group-hover\:scale-110 {
+  transform: scale(1.10);
+}
+
+.group .group-hover\:w-auto {
+  width: auto;
+}
+
+.group .group-hover\:px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
